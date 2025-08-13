@@ -1,0 +1,20 @@
+1.   What happens when the number of hidden nodes increase?
+
+      The model capacity increases: more hidden nodes let the network represent more complex decision boundaries. Small numbers of nodes may underfit (cannot separate classes), while more nodes let the model fit more complex patterns.
+
+2.   Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+     * With very few nodes the model underfits → low accuracy.
+
+     * As nodes increase, accuracy usually rises (the model can express the required function).
+
+     * After some point accuracy plateaus (additional nodes do not help) or fluctuates due to random initialization/training.
+
+     * Very large hidden layers can cause overfitting (high training accuracy but worse generalization) and slower training.
+
+     * Because of randomness, accuracy may not strictly increase monotically — rerun each size a few times or average results for a reliable pattern.
+
+
+
+
+
